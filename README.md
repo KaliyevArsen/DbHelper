@@ -1,11 +1,11 @@
 # Database Helper  
 
-The Database Helper is a Python package that provides a set of methods for interacting with a SQLite database. The package is built around the sqlite3 library, which provides a simple interface for working with SQLite databases.
+The Database Helper is a Python library that provides a set of methods for interacting with a SQLite database. The library is built around the sqlite3 library, which provides a simple interface for working with SQLite databases.
 
 
 ## Start
 
-To use the Database Helper package, you first need to create an instance of the Database class, passing in the name of the database file you want to connect to. Once you have created an instance of the Database class, you can use its methods to create tables, insert data, select data, update data, and delete data from the database.
+To use the Database Helper library, you first need to create an instance of the Database class, passing in the name of the database file you want to connect to. Once you have created an instance of the Database class, you can use its methods to create tables, insert data, select data, update data, and delete data from the database.
 
 <pre>
     from DbH import Database
@@ -48,4 +48,7 @@ add_column(table_name, column_name, data_type)`: Adds a new column to the specif
 
 `create_index(table_name, column)`: Creates an index on the specified column of the specified table in the database.
 
-`close`: Closes the connection to the database.
+`close`: Closes the connection to the database.  
+
+
+I hope this library will make your life easier <3
