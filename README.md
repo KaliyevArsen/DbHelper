@@ -5,7 +5,11 @@ The Database Helper is a Python library that provides a set of methods for inter
 
 ## Start
 
-To use the Database Helper library, you first need to create an instance of the Database class, passing in the name of the database file you want to connect to. Once you have created an instance of the Database class, you can use its methods to create tables, insert data, select data, update data, and delete data from the database.
+To use the Database Helper library, you first need to download library and create an instance of the Database class, passing in the name of the database file you want to connect to. Once you have created an instance of the Database class, you can use its methods to create tables, insert data, select data, update data, and delete data from the database.
+
+<pre>
+   pip install DbH
+</pre>
 
 <pre>
     from DbH import Database
